@@ -7,6 +7,18 @@ h1{
     
     
 }
+.menu{
+    padding-right: 150px;
+}
+.menu a{
+    color: #3C3C3C;
+    float: right;
+    text-decoration: none;
+    margin: 7px 0px;  
+    padding: 20px;
+    font-weight:inherit;
+    
+}
 .high{
     
     padding-top: 30%;
@@ -17,7 +29,7 @@ h2{
     font-size: 40px;
 }
 p{
-    color: dimgray;
+    color: black;
 }
 .orange-highlight{
     color: rgb(221, 78, 114);
@@ -35,10 +47,7 @@ p{
     width: 100%;
     padding-top: 15%;
 }
-.top-banner{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-}
+
 section{
     height: 500px;
     padding-bottom: 300px;
@@ -62,30 +71,92 @@ section{
    margin-top: 3%;
 }
 .dream-area{
-    background-image: url("images/biography-bg.png");
+    background-color:rgb(144, 142, 144);
     background-repeat: no-repeat;
     background-position: right;
 }
-.single-experience{
-    background-image: url("images/latest-work-bg.png");
-    width: 20%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 3%;
-    background-color: white;
-    
+.bio{
+    height: 280px;
 }
-.single-experience img{
-    height: 300px;
-    width: 350px;
+.about-me{
+   
+    background-color: #39a4ac;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 1% 7%;  
+    text-align: center; 
     
-}
-.experience-area{
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
-    height: 50%;
   
 }
+
+.about-me p{  
+    /* font-size: 1rem;  */
+    text-align: center; 
+    color: white; 
+    text-align: justify; 
+}
+
+.aboutme-image img{   
+    border: 5px solid white;
+    border-radius: 50%; 
+    height: 220px;
+    width: 200px; 
+    float: left;
+     
+}
+.aboutme-image{
+    margin-left: 13%;
+}
+.aboutme-hr{
+    color: #F8F9FC;
+}
+.aboutme-desc {
+  width: 50%;
+  float: right;
+  color: #F8F9FC;
+    
+}
+
+
+
+.about-me::after{
+    clear: both;
+    content: '';   
+    display: table;
+}
+.work-experience{
+  
+    width: 350px;
+    float: left;
+    margin-left: 6%;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    height: 300px;
+    background-color: #afacac;
+    border-radius: 1px solid #afacac;
+    border-radius: 15px;
+}
+.work-experience p{
+    font-size: 15px;
+}
+
+.work-area img{
+    height: 209px;
+    width: 336px;
+    padding-top: 15px;
+    border-radius: 15px;
+   
+    
+}
+.work-area{
+    background-color: #F8F9FC;
+    height: 450px;
+    
+}
+.latest{
+    color: #F46060;
+}
+
 
 #full-stack{
     text-align: center;
@@ -114,15 +185,54 @@ section{
     display: block;
     padding-bottom: 5%;
 }
-.experience-area h2{
+
+.work-area h2{
     text-align: center;
     padding-top: 5%;
-   
+    font-family: Bebas Neue;
+}
+.experience-area img{
+    width: 60%;
+    height: 210px;
+    margin-left: 22%;
+    padding-top: 3%;
+    
 }
 
-
-footer p{
+.experience-area h1{
+    font-size: 45px;
+    margin-left: 25%;
+    margin-top: -10%;
+    color: white;
+    
+}
+.footer-btn{
+    background-color: #FF8063;
+    float: right;
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #FF8063;
+    border-radius: 8px;
+    margin-top: -7%;
+    margin-right: 24%;
+    position: relative;
+    font-weight: bold;
+}
+.footer h3{
     text-align: center;
-    font-size: 12px;
-    padding-top: 12%;
+    margin-top: 10%;
+    color: gray;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+}   
+.footer a{
+     margin-left: 37%;
+    font-size: 40px;
+    color: rgb(13, 16, 24);
+    cursor: pointer;
+    text-decoration: none;
+    
 }
+
